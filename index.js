@@ -3,8 +3,6 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const bot = new Discord.Client({disableEveryone: true});
 var Jimp = require("jimp");
-const SQLite = require("better-sqlite3");
-const sql = new SQLite('./profile.sqlite');
 bot.commands = new Discord.Collection();
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
